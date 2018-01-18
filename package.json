@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gulp": "gulp"
+    "babel": "babel src -d lib"
   },
   "author": "waizai",
   "license": "ISC",
@@ -18,6 +18,9 @@
     "gulp-less": "^3.4.0"
   },
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "element": "^0.1.4",
+    "element-ui": "^2.0.10",
     "gulp-clean-css": "^3.9.2"
   }
 }
